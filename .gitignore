@@ -1,0 +1,16 @@
+*.retry
+
+.idea/
+
+venv/
+
+save/
+
+*~
+
+#secret.yml
+
+fetched/
+
+cloudstack.ini
+.cloudstack.ini
