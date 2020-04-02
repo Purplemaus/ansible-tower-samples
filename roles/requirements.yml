@@ -1,0 +1,111 @@
+## Install a role from the Ansible Galaxy
+# how to install ansible requirements
+# ref: https://stackoverflow.com/questions/25230376/how-to-automatically-install-ansible-galaxy-roles
+# ref: https://zaiste.net/automatically_install_ansible_galaxy_roles_with_requirements_yml/
+#- src: dfarrell07.opendaylight
+
+# Install a role from GitHub
+#- name: nickjj.docker
+#  src: https://github.com/nickjj/ansible-docker
+#  version: origin/master
+#
+#- name: geerlingguy.docker
+#  src: https://github.com/geerlingguy/ansible-role-docker
+#
+#- name: geerlingguy.postfix
+#  src: https://github.com/geerlingguy/ansible-role-postfix
+
+- name: geerlingguy.git
+  src: https://github.com/geerlingguy/ansible-role-git.git
+  version: master
+
+- name: geerlingguy.apache
+  src: https://github.com/geerlingguy/ansible-role-apache
+  version: master
+
+- name: geerlingguy.java
+  src: https://github.com/geerlingguy/ansible-role-java
+  version: master
+#  version: "1.9.7"
+
+- name: geerlingguy.ntp
+  src: https://github.com/geerlingguy/ansible-role-ntp
+  version: master
+
+- name: geerlingguy.pip
+  src: https://github.com/geerlingguy/ansible-role-pip
+  version: master
+
+- name: geerlingguy.ansible
+  src: https://github.com/geerlingguy/ansible-role-ansible
+  version: master
+
+- name: geerlingguy.awx
+  src: https://github.com/geerlingguy/ansible-role-awx
+  version: master
+
+- name: geerlingguy.nfs
+  src: https://github.com/geerlingguy/ansible-role-nfs
+  version: master
+
+- name: geerlingguy.jenkins
+  src: https://github.com/geerlingguy/ansible-role-jenkins
+  version: master
+#  version: "3.8.0"
+
+- name: geerlingguy.repo-epel
+  src: https://github.com/geerlingguy/ansible-role-repo-epel
+  version: master
+
+- name: geerlingguy.nodejs
+  src: https://github.com/geerlingguy/ansible-role-nodejs
+  version: master
+
+- name: tecris.maven
+  src: https://github.com/tecris/ansible-maven
+  version: master
+
+- name: arc-ts.docker
+  src: https://github.com/arc-ts/ansible-role-docker
+  version: master
+
+- name: avinetworks.docker
+  src: https://github.com/avinetworks/ansible-role-docker
+  version: master
+
+#- name: wangsha.docker-build-image
+#  src: https://github.com/wangsha/docker-build-image
+
+- name: githubixx.cfssl
+  src: https://github.com/githubixx/ansible-role-cfssl
+  version: master
+
+- name: andrewrothstein.pki
+  src: https://github.com/andrewrothstein/ansible-pki
+  version: master
+
+- name: andrewrothstein.trust-ca
+  src: https://github.com/andrewrothstein/ansible-trust-ca
+  version: master
+
+#- name: debops.pki
+#  src: https://github.com/debops/ansible-pki
+
+#- name: idealista.zookeeper
+#  src: idealista.zookeeper_role
+#  version: 1.5.0
+
+#- name: debops.iscsi
+##  src: https://github.com/debops/ansible-iscsi
+#  src: https://github.com/debops/debops
+#
+#- name: debops.lvm
+#  src: https://github.com/debops/debops
+
+## Install a role from a specific git branch
+#- name: ansible.iscsiadm
+#  src: https://github.com/OndrejHome/ansible.iscsiadm
+#  version: origin/master
+
+#- name: alban.andrieu.webmin
+
